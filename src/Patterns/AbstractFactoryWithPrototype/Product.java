@@ -1,13 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Patterns.AbstractFactoryWithPrototype;
 
 /**
- *
- * @author Miguel y Lera
+ * @author SlickNutter
+ * 
+ * Because I like it, the Products being used in the factories as templates, 
+ * are implementations of the Prototype Pattern (GoF [page 133]).
  */
 public interface Product {
     public Product clone();
