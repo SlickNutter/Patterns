@@ -2,9 +2,9 @@ package Patterns.AbstractFactoryWithPrototype;
 
 /**
  * @author SlickNutter
- 
- Because I'm getting familiar with the keyword 'static', I decided to implement
- a global counter, that tells us the amountCreated of Product1s that have been created.
+ *
+ * Because I'm getting familiar with the keyword 'static', I decided to implement
+ * a global counter, that tells us the amountCreated of Product1s that have been created.
  */
 public class Product1 implements Product{
     private String message = "Hi gurls!";
